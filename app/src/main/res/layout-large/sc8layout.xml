@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="550dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="How many Clothes?"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="21dp"
+        android:src="@mipmap/cloth"
+        app:srcCompat="@mipmap/cloth" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="8dp">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="28dp"
+            android:layout_toStartOf="@+id/button23"
+            android:background="#d3d3d3"
+            android:onClick="onClick"
+            android:text="9"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/button22"
+            android:layout_centerHorizontal="true"
+            android:background="#d3d3d3"
+            android:onClick="onClick"
+            android:text="10"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="29dp"
+            android:layout_toEndOf="@+id/button23"
+            android:background="#d3d3d3"
+            android:onClick="onClick"
+            android:text="11"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/button22"
+            android:layout_marginTop="30dp"
+            android:layout_toStartOf="@+id/button22"
+            android:onClick="onClick"
+            android:src="@drawable/back" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
